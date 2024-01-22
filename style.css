@@ -162,8 +162,8 @@ img{
         width: 150px;
         height: 32px;
         font-size: 8pt;
-        margin-top: 220px;
-        position: absolute;
+        margin-bottom: 20px;
+        /* position: absolute; */
     }
 
     .tutorial{
@@ -209,11 +209,5 @@ img{
       width: 100%;
       position: relative;
       padding-bottom: 53%;
-      margin-bottom: 50px;
-    }
-
-    .button{
-        display: flex;
-        justify-content: center;
     }
 }
