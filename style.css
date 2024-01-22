@@ -12,6 +12,11 @@ img{
     box-shadow: 0px 4px 8px 0px #BEAA78;
 }
 
+.swal-text{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
 .download{
     width: 190px;
     height: 40px;
