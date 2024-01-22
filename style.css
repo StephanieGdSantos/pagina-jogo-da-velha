@@ -111,3 +111,91 @@ img{
     font-size: 13pt;
     transform: scaleY(1.18);
 }
+
+.rights{
+    margin-top: 50px; 
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 900px){
+    body{
+        padding: 10px;
+    }
+
+    img{
+        max-width: 272.13px;
+        max-height: 145px;
+    }
+    
+    .title{
+        font-size: 18pt;
+    }
+
+    .subtitle{
+        font-size: 8pt;
+    }
+
+    .game-text{
+        font-size: 9pt;
+    }
+
+    .game-texts{
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .game-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download{
+        width: 90px;
+        height: 25px;
+        font-size: 8pt;
+        margin-bottom: 20px;
+    }
+
+    .tutorial{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .rules-text{
+        font-size: 9px;
+    }
+
+    .tutorial-text{
+        /* width: 100px; */
+        font-size: 9px;
+    }
+
+    .game-description{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .tutorial .title{
+        font-size: 12pt;
+    }
+
+    .rules .title{
+        font-size: 12pt;
+    }
+
+    .rules{
+        padding: 10px;
+    }
+
+    .rights{
+        font-size: 10px
+    }
+}
